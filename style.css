@@ -1,18 +1,18 @@
 
 header {
-background-color:red;
+background-color:none;
 grid-area:header;
 }
 nav {
-background-color:blue;
+background-color:none;
 grid-area:nav;
 }
 main {
-background-color:yellow;
+background-color:none;
 grid-area:main;
 }
 footer {
-background-color:purple;
+background-color:none;
 grid-area:footer;
 }
 body {
