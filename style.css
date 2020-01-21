@@ -17,6 +17,8 @@ grid-area:footer;
 }
 body {
   background: linear-gradient(to right, lightgreen, teal);
+  font-family:Veradana;
+  margin:0;
 }
 header { nav, main, footer background:rgba(0,0,0,.2);
 header h1: mediumspringgreen; text-shadow: 2px 2px 5px navy;
