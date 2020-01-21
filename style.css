@@ -20,11 +20,13 @@ body {
 }
 header { nav, main, footer background:rgba(0,0,0,.2);
 header h1: mediumspringgreen; text-shadow: 2px 2px 5px navy;
-header h3, nav a, main h2: navy;
+header h3, nav a, main h2{
+  color: navy;
 }
-{main p, footer p: white;
+main p, footer p{
+  color: white;
 }
-container1 {
+.container1 {
   display: grid;
   grid-template-columns:auto 1fr;
   grid-gap:.5em;
