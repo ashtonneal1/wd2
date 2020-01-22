@@ -21,7 +21,7 @@ grid-area:footer;
 }
 body {
   background: linear-gradient(to right, lightgreen, teal);
-  font-family:Veradana;
+  font-family:Verdana;
   margin:0;
 }
 header, nav, main, footer {
