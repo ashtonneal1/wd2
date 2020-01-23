@@ -5,6 +5,7 @@ grid-area:header;
 nav {
 background-color:rgba(0,0,0,.2);
 grid-area:nav;
+background:rgba(0,0,0,.2);
 }
 nav li{
 list-style-type:none;
