@@ -10,6 +10,10 @@ background:rgba(0,0,0,.2);
 nav li{
 list-style-type:none;
 }
+nav ul{
+padding:10px;
+margin:0;
+}
 main {
 background-color:rgba(0,0,0,.2);
 grid-area:main;
