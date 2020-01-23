@@ -1,57 +1,87 @@
-header {
-background-color:rgba(0,0,0,.2);
-grid-area:header;
-}
-nav {
-background-color:rgba(0,0,0,.2);
-grid-area:nav;
-background:rgba(0,0,0,.2);
-}
-nav li{
-list-style-type:none;
-padding:10px 10px;
-font-size:1.5em;
-font-weight:bold;
-}
-nav ul{
-padding:10px;
-margin:0;
-}
-nav a {
-text-decoration:none;
-color:navy;
-}
-a:hover {
-color:white;
-}
-main {
-background-color:rgba(0,0,0,.2);
-grid-area:main;
-padding:5px;
-}
-footer {
-background-color:rgba(0,0,0,.2);
-grid-area:footer;
-}
-body {
+body{
   background: linear-gradient(to right, lightgreen, teal);
-  font-family:Verdana;
   margin:0;
+  font-family: Verdana;
+  grid-area: body;
 }
 
+header{
+ background:rgba(0,0,0,.2); 
+ grid-area:header;
+ text-align: center;
+}
+
+
+main {
+ padding: 5px; 
+ grid-area:main;
+ background:rgba(0,0,0,.2);
+}
+
+nav {
+    grid-area:nav;
+    background:rgba(0,0,0,.2);
+    }
+
+footer {
+  grid-area: footer;
+  background:rgba(0,0,0,.2);
+  text-align: center;
+}
+
+
 header h1 {
-  color:mediumspringgreen; 
-  text-shadow: 2px 2px 5px navy;
-  font-size:5vw;
+color: mediumspringgreen; 
+text-shadow: 2px 2px 5px navy;
 }
-header h3, nav a, main h2{
-  color: navy;
+  
+header h3, nav a, main h2 { 
+color: navy;
+}
+
+main p, footer p { 
+color:white;
+  font-size:1em;
+}
+  
+nav ul {
+   padding:10px;
+   margin:0;
+}
+
+  nav li {
+    padding:10px 10px;
+    list-style-type:none;
+    font-size:1.5em;
+    font-weight:bold;
+}
+
+  nav a {
+    text-decoration:none;
+    color:navy;
+}
+
+a:hover {
+    color:white;
+}
+
+header h1{ 
+ font-size:5vw;
+  margin: 0;
+}
+header h3{
   font-size:2vw;
+  margin: 0;
 }
-main p, footer p{
-  color: white;
+main h2{
+ font-size:3em;
+ text-align: center;
 }
-.container1 {
+
+main p, footer p {
+    font-size:1em;
+}
+.container1 { /*for index.html*/
   display: grid;
   grid-template-columns:auto 1fr;
   grid-gap:.5em;
