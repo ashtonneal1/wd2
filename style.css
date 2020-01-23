@@ -31,6 +31,7 @@ header h1 {
 }
 header h3, nav a, main h2{
   color: navy;
+  font-style:2vw;
 }
 main p, footer p{
   color: white;
