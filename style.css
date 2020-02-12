@@ -85,6 +85,27 @@ footer p {
   color:white;
   margin:0;
 }
+aside{
+  grid-area:aside;
+  background:rgba(0,0,0,.2);
+  padding:5px;
+  }
+aside li{
+  color:navy;
+  padding:10px 0;
+  }
+aside a{
+  color:white;
+  font-size:20px;
+}
+aside h2{
+color:navy;
+padding:5px 0;
+text-align:center;
+}
+aside a:hover{
+color:navy;
+}
 
 /*---------------------------Mobile Layout Styles----------------------------*/
 .container1 { /*for index.html*/
@@ -96,6 +117,7 @@ footer p {
     "header"
     "nav"
     "main"
+    "aside"
     "footer";
     }
 
@@ -131,9 +153,9 @@ footer p {
 .container1 { /*for index.html*/
   grid-template-columns:auto 1fr;
   grid-template-areas:
-    "header header"
-    "nav main"
-    "footer footer";
+    "header header header"
+    "nav main aside"
+    "footer footer footer";
     }
 
 
@@ -159,12 +181,13 @@ footer p {
 @media only screen and (min-width: 960px)  {
 
 .container1 { /*for index.html*/
-  grid-template-columns:auto 1fr;
+  grid-template-columns:"auto 1fr 25%";
   grid-template-areas:
     "header header"
-    "nav main"
+    "nav main aside"
     "footer footer";
     }
+    
 	
 
 	}
