@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Travel the World</title>
     <meta charset="utf-8">
@@ -28,19 +28,17 @@
       <h2>Contact Us</h2>
       <p>Use this form to allow us to get in touch with you within 1 business day!<br>
       * = Required Field</p>
-      <form 
-        class= "nestedgrid2"
-        autocomplete="off"
-        action="https://formspree.io/xpzjpegd"
-        method="POST">
+      <form class= "nestedgrid2" 
+            action="https://formspree.io/xpzjpegd" 
+            method="POST">
          <div class="div1">
-           Name:*<br> <input type="text" size="30" name="fullname" placeholder="Jane Doe" required ><br>
-           Email:*<br> <input type="email" size="30" name="email" required><br>
-           Phone:*<br> <input type="tel" size="30" name="phone" placeholder="(xxx)xxx-xxxx" required><br>
-           Website:<br> <input type="url" size="30" name="website"><br>
+           Name:*<br> <input type="text" size="30" name="fullname" placeholder="Jane Doe" required aria-label="Full Name" ><br>
+           Email:*<br> <input type="email" size="30" name="email" required aria-label="Email Address"><br>
+           Phone:*<br> <input type="tel" size="30" name="phone" placeholder="(xxx)xxx-xxxx" required aria-label="Phone Number"><br>
+           Website:<br> <input type="url" size="30" name="website" aria-label="Website"><br>
          </div>
          <div class="div2">
-           Next Destination:<br> <input type="text" list="destination"><br>
+           Next Destination:<br> <input type="text" list="destination" aria-label="Destination"><br>
            <datalist id="destination">
              <option value="Beijing">
              <option value="Lisbon">
@@ -49,10 +47,10 @@
              <option value="Tokyo">
              <option value="Washington D.C">
            </datalist>
-           Expected Date of Departure:<br> <input type="date" size="30" name="dod"><br>
-           Number of Nights on Trip:<br> <input type="number" min="1" max="8" step="1" name="nights"><br>
+           Expected Date of Departure:<br> <input type="date" size="30" name="dod" aria-label="Expected Date of Departure"><br>
+           Number of Nights on Trip:<br> <input type="number" min="1" max="8" step="1" name="nights" aria-label="Nights on Trip"><br>
            
-        <br> <input type="submit" value="Help Me Book My Trip!" class="button"><br>
+            <br> <input type="submit" value="Help Me Book My Trip!" class="button"><br>
           </div>
       </form>
         <div class="call">
